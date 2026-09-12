@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Studio — Build Bold</title>
+  <meta name="description" content="Nova Studio - a fast, modern, responsive website." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html">Nova<span>Studio</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Welcome</p>
+        <h1>We build <span class="gradient">bold</span> digital experiences.</h1>
+        <p class="lead">A lightweight, responsive website crafted with clean HTML, CSS and vanilla JavaScript.</p>
+        <div class="cta-group">
+          <a href="about.html" class="btn btn-primary">Learn more</a>
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>What we do</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Fast</h3>
+            <p>No frameworks, no bloat. Pages load instantly on any connection.</p>
+          </article>
+          <article class="card">
+            <h3>Responsive</h3>
+            <p>Looks great on phones, tablets, laptops and everything in between.</p>
+          </article>
+          <article class="card">
+            <h3>Accessible</h3>
+            <p>Semantic markup and keyboard-friendly navigation built in.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Nova Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
